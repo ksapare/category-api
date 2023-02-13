@@ -8,4 +8,4 @@ CREATE TABLE item
     CONSTRAINT item_id_pkey PRIMARY KEY (item_id),
     CONSTRAINT item_category_fkey FOREIGN KEY (item_category)
     REFERENCES category(category_id)
-)
+);
